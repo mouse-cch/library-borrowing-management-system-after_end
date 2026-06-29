@@ -1,0 +1,14 @@
+package com.example.afterend.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.afterend.entity.Fee;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * Fee Mapper接口
+ * @author cch
+ * @since 2026-06-29
+ */
+@Mapper
+public interface FeeMapper extends BaseMapper<Fee> {
+}
